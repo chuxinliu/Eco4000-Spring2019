@@ -1,0 +1,141 @@
+\documentclass[12]{article}
+
+%% LAYOUT AND TITLES
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[margin=1.1in]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+	\posttitle{%
+		\par\end{center}
+	\begin{center}\large#1\end{center}
+	\vskip0.5em}%
+}
+%% Change title format to be more compact
+%\usepackage{titling}
+%\setlength{\droptitle}{-2em}
+%  \title{Syllabus}
+%  \pretitle{\vspace{\droptitle}\centering\huge}
+%  \posttitle{\par}
+%  \author{Chuxin Liu}
+%  \preauthor{\centering\large\emph}
+%  \postauthor{\par}
+%  \predate{\centering\large\emph}
+%  \postdate{\par}
+%  \date{}
+
+%% FONTS
+\usepackage[normalem]{ulem} %% For strikeout font: \sout()
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{fontawesome}
+\usepackage{fontspec}
+% See: https://tex.stackexchange.com/a/50593
+%\setmainfont[ 
+%BoldFont       = texgyrepagella-bold.otf ,
+%ItalicFont     = texgyrepagella-italic.otf ,
+%BoldItalicFont = texgyrepagella-bolditalic.otf 
+%]{texgyrepagella-regular.otf}
+\setmainfont[
+BoldFont       = FiraSans-SemiBold.otf ,
+ItalicFont     = FiraSans-Italic.otf ,
+BoldItalicFont = FiraSans-SemiBoldItalic.otf 
+]{FiraSans-Regular.otf} %% /usr/share/texlive/texmf-dist/fonts/opentype/public/fira
+\setmonofont[Mapping=tex-text]{inconsolata}	
+
+%% MISC
+\usepackage[colorlinks = true,
+linkcolor = black,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = black]{hyperref}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+
+\begin{document}
+
+\title{Introduction to Econometrics \\(ECO 4000)}
+\subtitle{\textsc{Spring 2019 syllabus}\vspace{-2ex}}
+\author{Chuxin Liu\\ Dept. of Economics and Finance, Baruch College}
+%\date{}  % Toggle commenting to test
+\date{\vspace{-5ex}}
+	
+\maketitle
+
+\section*{Summary}
+
+
+\section*{Course description}
+
+\newpage
+
+\section*{Practical matters}
+
+\subsection*{Class rules}
+
+
+\subsection*{Software requirements}
+%\newpage
+\section*{Evaluation and grading}
+
+\subsection*{Grade determination}
+
+%Grades will be determined according to a mix of regular assignments and in-class presentations. You will also be expected to evaluate each others' code and provide constructive feedback for improvements. There will be no final exam, although you may be asked to give a final presentation on a topic TBD.
+
+Grades will be determined as follows:
+
+\begin{table}[!h] \centering 
+	%\caption{\textsc{grades} }
+	\label{tab:grades} 
+	\begin{tabularx}{0.5\textwidth}{Xr} 
+		\toprule
+%		\multicolumn{2}{c}{EC 607}  \\
+%		\midrule
+		5 \times homework assignments (15\% each)	& 75\% \\
+		2 \times short presentations (5\% each)		& 10\% \\
+		1 \times peer-review						& 10\% \\
+		In-class participation						& 5\% \\
+		\bottomrule
+	\end{tabularx} 
+\end{table} 
+
+This breakdown should (hopefully) be pretty self-explanatory. Any specific requirements will be made clear as we proceed through the course. However, here are some additional details for \sout{pedants} people who like everything written down precisely:
+
+\vspace{-0.25cm}
+\subsubsection*{Homework assignments (and/or final presentation)}
+
+Homework assignments are to be completed individually. Late submissions will not be graded. There is no final exam or project for this course. However, you have the option of swapping out one of the individual homework assignments for a final (20 min) presentation of your own research. Think of this as an opportunity to develop and refine one of your PhD projects using the tools that we will cover in this course. In particular, some of you may wish to present your second-year field paper, or a dissertation chapter idea. You are allowed to do this individually or in pairs. However, please note the following caveats: 1) You need to get prior approval from me and let me know which HW assignment you are dropping. 2) These final presentations will only be graded on content relevant to this course. (Don't present a theory paper!)
+
+\vspace{-0.25cm}
+\subsubsection*{Short presentations}
+
+Most lectures have one or more key readings; see the \nameref{sec:outline} at the end of this document. Each of you must give a short (5-10 min) summary presentation on at least one of these key readings. I say ``at least one'' because --- while you will need to give two short presentations in total --- you also have the option to present on an (approved) software package or tool of your choice.\footnote{I'll provide a list of some suggested packages and tools on the course repo.} Topics will be assigned on a first-come-first-go basis... But don't be surprised if I volunteer you for something.
+
+\vspace{-0.25cm}
+\subsubsection*{Peer-review}
+
+You are going to peer-review (or reproduce) a study, project or software package. The focus here is on code and analysis, rather than framing or narrative issues. How exactly I expect you to do this will become clear after the first few lectures. The gist is that you will be using GitHub and related tools. (E.g. Cloning or forking a repo, identifying bugs or missing dependencies, issuing pull requests, and so forth. Again, these terms will make more sense once we cover them in class.) An approach that worked well last year --- but depends on demand for final presentations --- is that students reviewed each others' field papers. You could also choose to review any open-source project or repo, including \href{https://github.com/grantmcdermott?tab=repositories}{my own}. You will have 5 minutes to present your main findings/contributions and will also need to share any code changes/contributions with me.
+
+\subsection*{Honesty and academic integrity}
+
+Students caught cheating or plagiarizing will automatically be assigned a zero grade. Please acquaint yourself with the Student Conduct Code at \href{http://studentlife.uoregon.edu}{http://studentlife.uoregon.edu}.
+
+\subsection*{Accessibility}
+
+If you have a documented disability and anticipate needing accommodations in this course, please make arrangements with me during the first week of the term. Please request that the \href{https://aec.uoregon.edu/}{Accessible Education Center} send me a letter verifying your disability.
+
+\newpage
+\section*{Lecture outline}
+\label{sec:outline}
+
+%\textit{Note: Key readings in italics. $^* = $ potential short presentation topic.}
+
+
+\vspace{-0.25cm}
+\subsubsection*{Remind me again: What exactly does this course have to do with \textit{environmental} economics?}
+Good question. The truth is that this is really a data science tools course taught by an environmental economist. And the really truthful truth is that getting university approval for a new course --- with a different name --- is a bureaucratic nightmare, compared to just modifying an existing one off the shelf. Now, having said that, we \textit{will} be dealing with a lot of environmental datasets and topics. From energy and pollution data to fisheries to GIS and remote sensing products. These are the products and research themes that I am most familiar with and care most deeply about. The topics in this course are also genuinely representative of the tools that I use in my day-to-day research as an environmental economist. The good news that they are very easily adaptable to other fields.
+
+\end{document}
