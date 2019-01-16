@@ -1,6 +1,6 @@
 # Eco4000: Intro to Econometrics, Spring2019
 
-This is an undergraduate introduction to econometrics class taught by Chuxin Liu at the Baruch College.
+This is an undergraduate introduction to econometrics class taught by [Chuxin Liu](https://twitter.com/ChuxinLiu) at the Baruch College.
 Current work progress is course planning and syllabus writing.
 
 ## Text Book: Stock and Watson's [Introduction to Econometrics, 3rd Edition](https://www.amazon.com/Introduction-Econometrics-Custom-Baruch-College/dp/1256685976)
