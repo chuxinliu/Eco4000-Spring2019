@@ -1,1 +1,282 @@
+\documentclass[12]{article}
+%\input{/home/grant/Dropbox/LaTeX/preamble} %% Rather use self-contained preamble below
 
+%% LAYOUT AND TITLES
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[margin=1.1in]{geometry}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+	\posttitle{%
+		\par\end{center}
+	\begin{center}\large#1\end{center}
+	\vskip0.5em}%
+}
+%% Change title format to be more compact
+%\usepackage{titling}
+%\setlength{\droptitle}{-2em}
+%  \title{Syllabus}
+%  \pretitle{\vspace{\droptitle}\centering\huge}
+%  \posttitle{\par}
+%  \author{Grant R. McDermott}
+%  \preauthor{\centering\large\emph}
+%  \postauthor{\par}
+%  \predate{\centering\large\emph}
+%  \postdate{\par}
+%  \date{}
+
+%% FONTS
+\usepackage[normalem]{ulem} %% For strikeout font: \sout()
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{fontawesome}
+
+%% MISC
+\usepackage[colorlinks = true,
+linkcolor = black,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = black]{hyperref}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+\begin{document}
+
+\title{ECO 4000: Introduction to Econometrics}
+\subtitle{Baruch College, Spring 2019 \\ Friday, 11am-2pm}
+\author{Chuxin Liu\\ cliu4@gradcenter.cuny.edu}
+%\date{}  % Toggle commenting to test
+\date{\vspace{-5ex}}
+\maketitle
+
+\section*{Course Description}
+
+The objective of the course is to provide an introduction to quantitative techniques that are useful to analyze economic and financial data. The goal is to enable students to competently apply the methods and to assess the empirical validity of the assumptions to conduct inference. The course will discuss concepts from probability and statistics, estimation and inference in linear regression models and functional forms. Several applications will be discussed in class to demonstrate the relevance of these techniques to economics and finance.
+
+\section*{Learning Goals}
+At the end of the course, students will:
+\begin{enumerate}
+    \item Develop knowledge of the basic principles of probability and statistics
+    \item Develop understanding of the Linear Regression Model (LRM) and its use in modeling the relationship between economic and financial variables
+    \item Interpret the quantitative relationship between these variables
+    \item Be able to estimate and test hypothesis about the parameters of the LRM
+    \item Be able to conduct an empirical investigation using econometric techniques
+\end{enumerate}
+
+\section*{Pre-requisite}
+STA 2000 or equivalent (i.e. one semester course of introductory statistics)
+
+\section*{Textbook}
+The course will essentially be based on the following book: James Stock and Mark Watson, Introduction to Econometrics, 3rd Edition, Pearson.
+
+\section*{Evaluation}
+
+Grades will be determined as follows:
+\begin{table}[!h] \centering 
+	\label{tab:grades} 
+	\begin{tabularx}{0.5\textwidth}{Xr} 
+		\toprule
+		Assignments         & 20\%  \\
+		Quizzes             & 30\% \\
+		Midterm	(Mar 8)            & 20\% \\
+		Final (May 17)              & 25\% \\
+		In-class participation						& 5\% \\
+		\bottomrule
+	\end{tabularx} 
+\end{table} 
+
+\begin{itemize}
+    \item \textbf{Assignments}: There will be 5 assignments in total (only 4 best assignments' grades will be counted, 5\% each). Assignments submitted after deadline will not be graded. 
+    \item \textbf{Quizzes}: There will be 8 quizzes in total (only 6 best quizzes' grades will be counted, 5\% each). Students will take quizzes at the start of the class.
+    \item \textbf{Midterm}: In-class midterm is scheduled on March 8, 11am-2pm. A student not having attended the midterm exam will get a grade of 0 for the midterm. See the section ``course policy'' for further details.
+    \item \textbf{Final exam}:
+    \begin{itemize}
+    \item Date and venue decided by the school. 
+    \item A student not having attended the final exam will get a
+    grade of 0 for the final.  See the
+    section ``course policy'' for further details.
+    \item The program for the exam cover all what has been seen during
+    the semester (cumulative)
+    \end{itemize}
+    \item \textbf{In-class participation}: In-class participation will count for 5\% of the course grade.
+\end{itemize}
+
+
+\section*{Numerical and Letter Grades}
+\begin{itemize}
+\item Assignments and quizzes are graded over 10 (0 is the worst grade, 10 the best). Midterm and final exams are graded over 100 (0 is the worst grade, 100 the best). The number of points of each question is displayed.
+\item Grades will be posted on Blackboard as early as possible (7 days after the exam at most). 
+\item On Blackboard students will be able to see their numerical grades for the course. On CUNY First students will only see their letter grades. 
+\item Baruch College uses the following table to compute letter
+  grades. 
+
+  \begin{center}
+    \begin{tabular}[ht!]{ccc}
+      Letter & GPA & Grade (over 100)\\
+\hline
+A & 4.0 & 93.0--100.0\\
+A- & 3.7 & 90.0--92.9\\
+B+ & 3.3 & 87.1--89.9\\
+B & 3.0 & 83.0--87.0\\
+B- & 2.7 & 80.0--82.9\\
+C+ & 2.3 & 77.1--79.9\\
+C & 2.0 & 73.0--77.0\\
+C- & 1.7 & 70.0--72.9\\
+D+ & 1.3 & 67.1--69.9\\
+D & 1.0 & 60.0--67.0\\
+F & 0.0 & below 60.0
+    \end{tabular}
+  \end{center}
+\end{itemize}
+
+\begin{itemize}
+\item Attendance will be checked randomly (on average, once every 2 or
+  3 classes).
+\item Zicklin's \textit{recommendation} is that the average and the
+  median grade in a class should be B-. In any case grades will be
+  curved down:  if the average and/or the median grade of the
+  class is \textit{above} B- there will be no adjustment aimed at
+  complying with the school's recommendation. 
+\item There are two types of curving: 
+    
+    \begin{itemize}
+
+    \item \textbf{Class-wide curving}:
+        \begin{itemize}
+        \item Curving will be done after the final exams have been
+        graded. That is, during the semester students will only be informed of their uncurved grades for the assignments and the midterm. 
+        \item Curving is likely to be non-linear: usually  low
+  grades are curved \textit{slightly} more than high grades. Note
+  that, due to
+  the unpredictability of the grade distribution, it is not possible to
+  commit to a specific grade formula. 
+        \item The class-wide curving will
+  not invert the ranking of students: a student with a higher grade
+  than another student  before curving will still have a higher grade
+  after curving. 
+        \end{itemize}
+    
+    \item \textbf{Individual curving}: Sometimes the grade of a student is very close to the threshold to obtain a better letter grade. In such cases the following rule applies:
+    
+        \begin{itemize}
+        \item The individual curving is made \textit{after} the class-wide curving. 
+        \item Students will be ranked according to their attendance rate. Students in the top  50\% will be \textit{eligible} for the individual curving. The other students will not be eligible.
+        \medskip 
+
+If the student with highest attendance rate among the 50\% students
+with the lowest attendance rate  has the same  attendance rate as the student 
+with lowest attendance rate among the 50\% students with the highest
+attendance rate, then the eligible students will be in the top $x\%$
+(in attendance rate), where $x$ the lowest number  such that
+the student with the highest attendance rate in the bottom $(100-x)\%$
+(in attendance rate) has a lowest attendance rate as the top
+$x\%$. For instance, if 80\% of the class has a perfect 
+attendance rate then the  80\% of the students with a perfect
+attendance rate will be eligible.
+
+  \item An increment will be determined (usually around 0.1 points but
+    it could be lower or higher). 
+  \item For eligible students their new (numerical) grade will be
+    calculated the following way. 
+
+    \begin{itemize}
+    \item Let $g$ be the grade after the class-wide curving. 
+    \item Denote by $L(x)$  the letter grade corresponding to a numerical
+      grade $x$. 
+    \item We write $L(x)>L(x')$ to mean that the letter grade corresponding to
+      $x$ is better than the  letter grade corresponding to
+      $x'$. 
+
+For instance,  $x=84$ gives $L(x)=B+$, and $x'=75$ gives
+$L(x')=C$. So $L(x)>L(x')$. 
+\item The formula is:
+    \begin{equation*}
+      \text{new grade} =
+      \begin{cases}
+        g + \text{increment} & \text{ if } L(g +
+        \text{increment})>L(g)\\
+        g &\text{ if } L(g +
+        \text{increment})=L(g)
+      \end{cases}
+    \end{equation*}
+    \end{itemize}
+
+  \item The individual curving \textit{may} invert the grade ranking
+    between students (in that case that would be between an eligible
+    and a non-eligible student). 
+  \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+
+\section*{Course Policy}
+\begin{itemize}
+\item Students with problems or difficulties regarding the
+  assignments, quizzes, midterm or final exam must discuss with the instructor
+  \underline{\textbf{before}} the deadline of the assignment or the date
+  of the quiz or exam).
+\item No student will be granted an extension of the deadline for an
+  assignment or a makeup for an exam (midterm or final) if the request
+  is done after the deadline (for an assignment) or the date of the corresponding 
+  quiz or exam, unless the student presents a
+  genuine certificate or letter from a third party (hospital,
+  physician, police, etc.) justifying the request. 
+\item Request for grade lowering  (e.g., from D+ to F) will be
+  denied. 
+\item No student will be able to improve his or her grade with an
+  extra work or assignment. Grades will depend only on the
+  assignments, quizzes, the midterm exam and the final exam. This implies that other factors (graduation GPA, number of credits left to graduate, type of major or minor, etc.) will be ignored when calculating grades. 
+\end{itemize}
+
+
+
+\section*{Academic Honesty}
+
+I \textbf{fully} support Baruch College's policy on Academic Honesty, which (in part) states: 
+
+``{\it Academic dishonesty is unacceptable and will not be tolerated. Cheating, forgery, plagiarism and collusion in dishonest acts undermine the college's educational mission and the students' personal and intellectual growth. Baruch students are expected to bear individual responsibility for their work, to learn the rules and definitions that underlie the practice of academic integrity, and to uphold its ideals. Ignorance of the rules is not an acceptable excuse for disobeying them. Any student who attempts to compromise or devalue the academic process will be sanctioned. }''
+
+My policy is to give a grade of 0\% to the assignment/quiz/exam in which you have cheated.  
+A report of suspected academic dishonesty will be sent to the Office
+of the Dean of Students.
+\newline
+\newline
+Additional information and definitions can be found at:
+\newline
+\href{https://www.baruch.cuny.edu/academic/academic_honesty.html}{http://www.baruch.cuny.edu/academic/academic\_honesty.html}
+
+
+
+\newpage
+\section*{Lecture outline (preliminary)}
+\begin{enumerate}
+    \item (Jan 25) Economic Questions and Data
+    \item (Jan 25, Feb 1) Review of Probability
+    \item (Feb 8) Review of Statistics
+    \item (Feb 15) Linear Regression with One Regressor
+    \item (Feb 22) Linear Regression with One Regressor: Hypothesis Test and Confidence Interval \\
+    
+    \newline
+    \textit{(Mar 1) Midterm Review \\
+    \textbf{(Mar 8) Midterm}} \\
+    
+    \item (Mar 15) Linear Regression with Multiple Regressors
+    \item (Mar 22) Linear Regression with Multiple Regressors: Hypothesis Test and Confidence Interval
+    \item (Mar 29) Nonlinear Regression Functions
+    \item (Apr 5) Assessing Studies Based on Multiple Regression
+    \item (Apr 12) Binary Dependent Variable, Instrumental Variables, Experiments and Quasi-Experiments \\
+    
+    \newline
+    \textit{(Apr 19 - 28) Spring Break}\\
+    
+    \item (May 3) Time Series \\
+    
+    \newline
+    \textit{(Mar 10) Final Review \\
+    \textbf{(Mar 17) Final}} \\
+
+\end{enumerate}
+
+\end{document}
