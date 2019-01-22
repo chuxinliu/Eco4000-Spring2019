@@ -1,0 +1,85 @@
+---
+title: "Eco 4000 Intro to Econometrics: Lecture 1"
+author: "Chuxin Liu"
+date: "January 25, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## ECO 4000: Intro to Econometrics
+
+- 2,5-hour class with one 10-minute break in the middle
+- Syllabus will be finalized before Feb 1 (the second lecture).
+- Questions? 
+
+## Chapter 1: Introduction
+
+## 1.1 Economic Questions
+
+**From SW slides**
+
+## How does aging affect athlete performance? (1)
+
+- How? Mechanisms?
+- How do we test that? 
+- Can we do experiment?
+- What kind of data do we need?
+
+## How does aging affect athlete performance? (2)
+
+![](D:\2019 Spring\ECO 4000\Lecture 123\Lecture 1 pictures\FKfigure3.png)
+
+## Does Airbnb increase racial discrimination? (1)
+
+- How? Mechanisms?
+- How do we test that? 
+- Can we do experiment?
+- What kind of data do we need?
+
+## Does Airbnb increase racial discrimination? (2)
+
+![](D:\2019 Spring\ECO 4000\Lecture 123\Lecture 1 pictures\BeforeAirbnb.png)
+
+## Does Airbnb increase racial discrimination? (3)
+
+![](D:\2019 Spring\ECO 4000\Lecture 123\Lecture 1 pictures\AfterAirbnb.png)
+
+## Does Airbnb increase racial discrimination? (4)
+
+![](D:\2019 Spring\ECO 4000\Lecture 123\Lecture 1 pictures\AirbnbTable4.png)
+
+## Does Airbnb increase racial discrimination? (5)
+
+- More research and data available on: www.insideairbnb.com
+
+![](D:\2019 Spring\ECO 4000\Lecture 123\Lecture 1 pictures\inside airbnb.png)
+
+## 1.2 Data
+
+## 1.3 
+
+## Review: Test Bank 1,2,3,4,7,11,13,14,16
+
+## Chapter 2:Review of Probability
+
+## Review
+
+## Chapter 3: Review of Statistics
+
+## Review
+
+## Quiz 1
+
+- 10 minutes
+- Feb 1, 11am
+- Quiz questions will be directly chosen from test bank #1 and test bank #2
+
+## Assignment 1
+
+- SW Book Exercise: 2.1, 2.2, 2.3, 2.7, 2.9; 2.10, 2.17, 2.18, 2.23, 2.26;
+- Due: Feb 7, 11:59pm
+- Submit online. Details will be posted soon.
+- Assignment submitted after deadline will not be graded
