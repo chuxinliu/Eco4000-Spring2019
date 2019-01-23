@@ -7,13 +7,14 @@ Current work progress is slides making.
 
 ## Lecture Outline
 
-1. Review of Probability
-2. Review of Statistics
-3. Linear Regression with One Regressor
-4. Linear Regression with One Regressor: Hypothesis Test and Confidence Interval
-5. Linear Regression with Multiple Regressors
-6. Linear Regression with Multiple Regressors: Hypothesis Test and Confidence Interval
-7. Nonlinear Regression Functions
-8. Assessing Studies Based on Multiple Regression
-9. Binary Dependent Variable, Instrumental Variables, Experiments and Quasi-Experiments
-10. Time Series
+1. Introduction
+2. Review of Probability
+3. Review of Statistics
+4. Linear Regression with One Regressor
+5. Linear Regression with One Regressor: Hypothesis Test and Confidence Interval
+6. Linear Regression with Multiple Regressors
+7. Linear Regression with Multiple Regressors: Hypothesis Test and Confidence Interval
+8. Nonlinear Regression Functions
+9. Assessing Studies Based on Multiple Regression
+10. Binary Dependent Variable, Instrumental Variables, Experiments and Quasi-Experiments
+11. Time Series
