@@ -4,7 +4,7 @@
 %% LAYOUT AND TITLES
 \usepackage{setspace}
 \onehalfspacing
-\usepackage[margin=1.1in]{geometry}
+\usepackage[margin=0.4in]{geometry}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{10pt}
 \usepackage{titling}
@@ -44,18 +44,18 @@ anchorcolor = black]{hyperref}
 
 \begin{document}
 
-\title{ECO 4000: Introduction to Econometrics}
-\subtitle{Baruch College, Spring 2019 \\ Friday, 11am-2pm}
-\author{Chuxin Liu\\ cliu4@gradcenter.cuny.edu}
-%\date{}  % Toggle commenting to test
+\title{ECO 4000: Statistical Analysis for Economics and Finance}
+\subtitle{Baruch College, Spring 2019 \\ Friday, 11:10am-2:05pm}
+\author{Chuxin Liu\\ Chuxin.Liu@baruch.cuny.edu \\ Office Hour: (by appointment) Friday 2-3pm }
 \date{\vspace{-5ex}}
 \maketitle
+
 
 \section*{Course Description}
 
 The objective of the course is to provide an introduction to quantitative techniques that are useful to analyze economic and financial data. The goal is to enable students to competently apply the methods and to assess the empirical validity of the assumptions to conduct inference. The course will discuss concepts from probability and statistics, estimation and inference in linear regression models and functional forms. Several applications will be discussed in class to demonstrate the relevance of these techniques to economics and finance.
 
-\section*{Learning Goals}
+\section*{Course Learning Goals}
 At the end of the course, students will:
 \begin{enumerate}
     \item Develop knowledge of the basic principles of probability and statistics
@@ -63,13 +63,31 @@ At the end of the course, students will:
     \item Interpret the quantitative relationship between these variables
     \item Be able to estimate and test hypothesis about the parameters of the LRM
     \item Be able to conduct an empirical investigation using econometric techniques
+    \item Be able to use basic programming skills to analyze data
 \end{enumerate}
+
+\section*{Program Learning Goals}
+
+See \url{https://www.baruch.cuny.edu/assessment/Zicklinlearninggoals.htm}
+
 
 \section*{Pre-requisite}
 STA 2000 or equivalent (i.e. one semester course of introductory statistics)
 
-\section*{Textbook}
+\section*{Textbook and Materials}
 The course will essentially be based on the following book: James Stock and Mark Watson, Introduction to Econometrics, 3rd Edition, Pearson.
+\newline
+\newline
+Course documents will be posted on \textbf{Blackboard} as well.
+
+\subsection*{Pearson MyLab}
+Baruch College has a customized  edition of the textbook used for this course.  This includes a paperback copy of the book, and access to MyLab. The price of the book is 79 dollars + tax (and free shipping). You are required to buy the access for MyLab. You can purchase directly from the My-Lab for instant access. Or, you can order the Baruch discounted package (access code + print book) from MyPearsonStore. If you purchase from MyPearsonStore, you will be given a temporary access code while you receive your access code in mail. To order the Baruch discounted package, go to the
+following link: \url{http://www.mypearsonstore.com/stores/1269908294} with username \textbf{eco4000} and password \textbf{baruch}. Instructions for MyLab is uploaded on BlackBoard.
+
+- Pearson MyLab Course ID: \textbf{liu30067}
+\newline
+- Pearson MyLab Student Guide: \url{https://help.pearsoncmg.com/myp/myp_instr/Content/enrollment/enroll_students_myp.htm?cshid=how_students_enroll_myp}
+
 
 \section*{Evaluation}
 
@@ -88,8 +106,8 @@ Grades will be determined as follows:
 \end{table} 
 
 \begin{itemize}
-    \item \textbf{Assignments}: There will be 5 assignments in total (only 4 best assignments' grades will be counted, 5\% each). Assignments submitted after deadline will not be graded. 
-    \item \textbf{Quizzes}: There will be 8 quizzes in total (only 6 best quizzes' grades will be counted, 5\% each). Students will take quizzes at the start of the class.
+    \item \textbf{Assignments}: There will be 5 assignments in total (only 4 best assignments' grades will be counted, 5\% each). Assignments submitted after deadline will not be graded. Students will do assignments on Pearson MyLab. No make-up assignment.
+    \item \textbf{Quizzes}: There will be 8 quizzes in total (only 6 best quizzes' grades will be counted, 5\% each). Students will take quizzes at the start of the class or on Pearson MyLab. No make-up quiz.
     \item \textbf{Midterm}: In-class midterm is scheduled on March 8, 11am-2pm. A student not having attended the midterm exam will get a grade of 0 for the midterm. See the section ``course policy'' for further details.
     \item \textbf{Final exam}:
     \begin{itemize}
@@ -132,8 +150,7 @@ F & 0.0 & below 60.0
 \end{itemize}
 
 \begin{itemize}
-\item Attendance will be checked randomly (on average, once every 2 or
-  3 classes).
+\item Attendance will be checked in class
 \item Zicklin's \textit{recommendation} is that the average and the
   median grade in a class should be B-. In any case grades will be
   curved down:  if the average and/or the median grade of the
@@ -213,23 +230,14 @@ $L(x')=C$. So $L(x)>L(x')$.
 
 \section*{Course Policy}
 \begin{itemize}
-\item Students with problems or difficulties regarding the
-  assignments, quizzes, midterm or final exam must discuss with the instructor
-  \underline{\textbf{before}} the deadline of the assignment or the date
-  of the quiz or exam).
-\item No student will be granted an extension of the deadline for an
-  assignment or a makeup for an exam (midterm or final) if the request
-  is done after the deadline (for an assignment) or the date of the corresponding 
-  quiz or exam, unless the student presents a
-  genuine certificate or letter from a third party (hospital,
-  physician, police, etc.) justifying the request. 
-\item Request for grade lowering  (e.g., from D+ to F) will be
-  denied. 
-\item No student will be able to improve his or her grade with an
-  extra work or assignment. Grades will depend only on the
-  assignments, quizzes, the midterm exam and the final exam. This implies that other factors (graduation GPA, number of credits left to graduate, type of major or minor, etc.) will be ignored when calculating grades. 
+    \item Students with problems or difficulties regarding midterm and final exam must discuss with the         instructor \underline{\textbf{before}} the date of the exam.
+    \item No student will be granted a makeup for an exam (midterm or final) if the request
+  is done after the date of the corresponding exam, unless the student presents a
+  genuine certificate or letter from a third party (hospital, physician, police, etc.) justifying the request. 
+    \item Request for grade lowering  (e.g., from D+ to F) will be   denied. 
+    \item No student will be able to improve his or her grade with an
+  extra work or assignment. This implies that other factors (graduation GPA, number of credits left to graduate, type of major or minor, etc.) will be ignored when calculating grades. 
 \end{itemize}
-
 
 
 \section*{Academic Honesty}
@@ -247,13 +255,22 @@ Additional information and definitions can be found at:
 \newline
 \href{https://www.baruch.cuny.edu/academic/academic_honesty.html}{http://www.baruch.cuny.edu/academic/academic\_honesty.html}
 
+\section*{Disabilities Statement}
+
+Baruch College provides reasonable accommodations and modifications for students with disabilities to ensure that no student with a disability is denied the benefits of, is excluded from participation in, or otherwise is subjected to discrimination under the education program or activity operated by the College because of the absence of educational auxiliary aids for students with disabilities. Arrangements for adapting class procedures without compromising course content and standards may take time. Therefore, students who require accommodations or modifications should speak with me as soon as possible.
+\newline
+\newline
+I am available for you to talk with me after this class or by appointment.
+\newline
+\newline
+To receive services, you must register with the Office of Services for Students with Disabilities. Documentation is necessary for every disability. For more information concerning services for students with disabilities, please contact Director of the Office of Services for Students with Disabilities.
 
 
 \newpage
-\section*{Lecture outline (preliminary)}
+\section*{Lecture outline (expected)}
 \begin{enumerate}
     \item (Jan 25) Economic Questions and Data
-    \item (Jan 25, Feb 1) Review of Probability
+    \item (Feb 1) Review of Probability
     \item (Feb 8) Review of Statistics
     \item (Feb 15) Linear Regression with One Regressor
     \item (Feb 22) Linear Regression with One Regressor: Hypothesis Test and Confidence Interval \\
@@ -274,8 +291,8 @@ Additional information and definitions can be found at:
     \item (May 3) Time Series \\
     
     \newline
-    \textit{(Mar 10) Final Review \\
-    \textbf{(Mar 17) Final}} \\
+    \textit{(May 10) Final Review \\
+    \textbf{(May 17) Final}} \\
 
 \end{enumerate}
 
