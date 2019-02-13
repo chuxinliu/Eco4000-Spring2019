@@ -2,6 +2,8 @@
 
 This is an undergraduate introduction to econometrics class taught by [Chuxin Liu](https://twitter.com/ChuxinLiu) at the Baruch College.
 
+Current progress: Feb 15, finishing review of statistics.
+
 ## Text Book: Stock and Watson's [Introduction to Econometrics, 3rd Edition](https://www.amazon.com/Introduction-Econometrics-Custom-Baruch-College/dp/1256685976)
 
 ## Lecture Outline
